@@ -3,6 +3,8 @@ languageCode = "it-IT"
 title = "Vita Da Fuori Campus"
 theme = "cactus"
 copyright = "carmelolg"
+relativeURLs = true
+canonifyURLs = true
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
