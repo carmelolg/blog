@@ -1,9 +1,9 @@
-baseURL = "https://carmelolg.github.io/blog"
-languageCode = "it-IT"
-title = "Vita Da Fuori Campus"
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Cactus theme example"
 theme = "cactus"
-copyright = "carmelolg"
-# disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+copyright = "You" # cactus will use title if copyright is not set
+disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
 
@@ -16,18 +16,18 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Post"
+name = "Writings"
 url = "/posts"
 weight = 2
 
-#[[menu.main]]
-#name = "Tags"
-#url = "/tags"
-#weight = 3
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
 
 [[menu.main]]
-name = "Chi sono"
-url = "https://carmelolg.github.io"
+name = "About"
+url = "/about"
 weight = 4
 
 [markup]
@@ -48,30 +48,29 @@ weight = 4
 
 [params]
 
-  colortheme = "light" # dark, light, white, or classic
+  colortheme = "white" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "La storia di questo blog nasce dalla fantasia sviluppata in molti viaggi durante gli anni universitari. Spesso ho salutato il campus, chioccia meravigliosa di migliaia di studenti, per tradirlo con posti lontani, che, se pur per breve sosta, hanno stimolato fantasiosamente le mie sinapsi. Questo blog è un insieme di racconti, aneddoti e avventure di Salvatore, Rocco, Mimmo, Francesco, Filomena, Caterina e tanti altri che come me, trovano in mete lontane un profumo diverso e un profumo di casa. Perché in fin dei conti, oggi la [‘nduja](https://it.wikipedia.org/wiki/%27Nduja) la trovi anche a Toronto. Prego, salga a bordo, posto finestrino o centrale? Dolce o salato? Buona permanenza e buon viaggio."
+  description = "Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."
   mainSection = "posts" # your main section
-  mainSectionTitle = "Post"
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
-  showProjectsList = false # show projects list by default (if projects data file exists).
-  # projectsUrl = "https://github.com/gohugoio" # title link for projects list
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/gohugoio" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-  dateFormat = "02-01-2006" # default
+  dateFormat = "2006-01-02" # default
 
   # Post page settings
   show_updated = true # default
   showReadTime = true # default
 
   [params.comments]
-    enabled = false # default
+    enabled = true # default
     engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
     [params.comments.utterances]
       repo = "<github_username>/<github_reponame>"
@@ -85,11 +84,11 @@ weight = 4
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
-    name = "twitter"
-    link = "https://twitter.com/carmelolg"
+    name = "github"
+    link = "https://github.com/gohugoio"
   [[params.social]]
-    name = "instagram"
-    link = "http://www.instagram.com/carmelolg"
+    name = "linkedin"
+    link = "https://www.linkedin.com/company/github/"
   [[params.social]]
-    name = "reddit"
-    link = "https://www.reddit.com/user/carmelolg"
+    name = "email"
+    link = "example@example.com"  # no need for "mailto:" in the head
