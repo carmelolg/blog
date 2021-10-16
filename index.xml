@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vita Da Fuori Campus</title>
+    <link>https://carmelolg.github.io/blog/</link>
+    <description>Recent content on Vita Da Fuori Campus</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://carmelolg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vita Da Fuori Campus</title>
+      <link>https://carmelolg.github.io/blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carmelolg.github.io/blog/about/</guid>
+      <description>Test </description>
+    </item>
+    
+    <item>
+      <title>Vita Da Fuori Campus</title>
+      <link>https://carmelolg.github.io/blog/whoami/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carmelolg.github.io/blog/whoami/</guid>
+      <description>Computer Scientist, mainly dreamer.
+ About Me  I&amp;rsquo;m a computer scientist, skilled in cloud-based architectures, enterprise applications and team leading. Usually I learn and develop new project in different computer science fields as IoT and Artificial Intelligence.
+Currently I&amp;rsquo;m Team Leader in TIM S.p.A, the greatest Telco company in Italy.
+I play guitar and swim  Miscellanous  Italy Covid19 &amp;mdash;&amp;gt; (Android or Other platforms) - The complete dashboard for tracing italian pandemic data of covid19 Manuale del Software Developer - A little manual for software developer, written during my experience as Tech Lead.</description>
+    </item>
+    
+  </channel>
+</rss>
