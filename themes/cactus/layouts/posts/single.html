@@ -70,7 +70,12 @@
   {{ end }}
     {{ if .Site.Params.tocInline }}
     <div id="toc">
-      {{ .TableOfContents }}
+      {{ if .TableOfContents}}
+        {{ .TableOfContents }}
+      {{ end }}
+      {{ if not .TableOfContents }}
+        no paragraphs
+      {{ end }}
     </div>
     {{ end }}
     <div class="content" itemprop="articleBody">
