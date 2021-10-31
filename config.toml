@@ -72,7 +72,7 @@ weight = 4
   show_updated = true # default
   showReadTime = true # default
 
-  tocInline = false
+  # tocInline = false
 
   [params.comments]
     enabled = false # default
