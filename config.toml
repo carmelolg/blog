@@ -22,10 +22,10 @@ name = "Post"
 url = "/posts"
 weight = 2
 
-#[[menu.main]]
-#name = "Tags"
-#url = "/tags"
-#weight = 3
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
 
 [[menu.main]]
 name = "Chi sono"
@@ -97,3 +97,6 @@ weight = 4
   [[params.social]]
     name = "reddit"
     link = "https://www.reddit.com/user/carmelolg"
+  [[params.social]]
+    name = "rss"
+    link = "https://carmelolg.github.io/blog/index.xml"
