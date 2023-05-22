@@ -55,4 +55,4 @@ jobs:
         git checkout master
         git add -A
         git commit -m "docs automatic build"
-        git push -f
+        git push
