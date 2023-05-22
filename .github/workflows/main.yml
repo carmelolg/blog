@@ -42,9 +42,16 @@ jobs:
       run: hugo -D
 
     # Step 5 - Push our generated site to our gh-pages branch
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-          deploy_key: ${{ secrets.TOKEN }}
-          publish_dir: ./public
-          publish_branch: master
+    #- name: Deploy
+    #  uses: peaceiris/actions-gh-pages@v3
+    #  with:
+    #      deploy_key: ${{ secrets.TOKEN }}
+    #      publish_dir: ./public
+    #      publish_branch: master
+    - name: Commit the docs
+      run: |
+        git config --global user.name 'carmelolg'
+        git config --global user.email 'carmelolagamba@hotmail.it'
+        git add -A
+        git commit -m "docs automatic build"
+        git push
