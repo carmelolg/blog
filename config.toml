@@ -1,20 +1,19 @@
-baseURL = "https://carmelolg.github.io/blog"
+baseURL = "https://carmelolg.github.io/blog/"
 languageCode = "it-IT"
 title = "Vita Da Fuori Campus"
 theme = "archie"
 copyright = "carmelolg"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 relativeURLs = true
 canonifyURLs = true
-# disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-# googleAnalytics = "UA-1234-5"
-
-
-# summaryLength = 2
 
 [params]
 	mode="dark" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	#subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	subtitle = "La storia di questo blog nasce dalla fantasia sviluppata in molti viaggi durante gli anni universitari. Spesso ho salutato il campus, chioccia meravigliosa di migliaia di studenti, per tradirlo con posti lontani, che, se pur per breve sosta, hanno stimolato fantasiosamente le mie sinapsi. Questo blog è un insieme di racconti, aneddoti e avventure di Salvatore, Rocco, Mimmo, Francesco, Filomena, Caterina e tanti altri che come me, trovano in mete lontane un profumo diverso e un profumo di casa. Perché in fin dei conti, oggi la [‘nduja](https://it.wikipedia.org/wiki/%27Nduja) la trovi anche a Toronto. Prego, salga a bordo, posto finestrino o centrale? Dolce o salato? Buona permanenza e buon viaggio."
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
 
