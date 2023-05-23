@@ -1,0 +1,122 @@
+baseURL = "https://carmelolg.github.io/blog"
+languageCode = "it-IT"
+title = "Vita Da Fuori Campus"
+theme = "archie"
+copyright = "carmelolg"
+relativeURLs = true
+canonifyURLs = true
+# disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+# googleAnalytics = "UA-1234-5"
+
+
+# summaryLength = 2
+
+[params]
+	mode="dark" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	#subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
+
+[[params.social]]
+name = "twitter"
+icon = "twitter"
+url = "https://twitter.com/carmelolg"
+[[params.social]]
+name = "instagram"
+icon = "instagram"
+url = "http://www.instagram.com/carmelolg"
+[[params.social]]
+name = "rss"
+icon = "rss"
+url = "https://carmelolg.github.io/blog/index.xml"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Post"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "Chi sono"
+url = "https://carmelolg.github.io"
+weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+#[params]
+#
+# # colortheme = "classic" # dark, light, white, or classic
+# # rss = true # generate rss feed. default value is false
+# # googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+# # showAllPostsArchive = false # default
+#
+# # # Home page settings
+# # description = "La storia di questo blog nasce dalla fantasia sviluppata in molti viaggi durante gli anni universitari. Spesso ho salutato il campus, chioccia meravigliosa di migliaia di studenti, per tradirlo con posti lontani, che, se pur per breve sosta, hanno stimolato fantasiosamente le mie sinapsi. Questo blog è un insieme di racconti, aneddoti e avventure di Salvatore, Rocco, Mimmo, Francesco, Filomena, Caterina e tanti altri che come me, trovano in mete lontane un profumo diverso e un profumo di casa. Perché in fin dei conti, oggi la [‘nduja](https://it.wikipedia.org/wiki/%27Nduja) la trovi anche a Toronto. Prego, salga a bordo, posto finestrino o centrale? Dolce o salato? Buona permanenza e buon viaggio."
+# # mainSection = "posts" # your main section
+# # mainSectionTitle = "Post"
+# # showAllPostsOnHomePage = false # default
+# # postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+# # tagsOverview = true # show tags overview by default.
+# # showProjectsList = false # show projects list by default (if projects data file exists).
+# # # projectsUrl = "https://github.com/gohugoio" # title link for projects list
+#
+# # # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+# # dateFormat = "02-01-2006" # default
+#
+# # # Post page settings
+# # show_updated = true # default
+# # showReadTime = true # default
+#
+# # # tocInline = false
+#
+# # [params.comments]
+# #   enabled = false # default
+# #   engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+# #   [params.comments.utterances]
+# #     repo = "<github_username>/<github_reponame>"
+# #     label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
+# #     theme = "github-light"
+# #   [params.comments.cactuscomments]
+# #     siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
+# #     #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
+# #     #serverName = "" # Defaults to cactus.chat
+#
+# # # the value of name should be an valid font awesome icon name (brands type)
+# # # https://fontawesome.com/icons?d=gallery&s=brands
+# # [[params.social]]
+# #   name = "twitter"
+# #   link = "https://twitter.com/carmelolg"
+# # [[params.social]]
+# #   name = "instagram"
+# #   link = "http://www.instagram.com/carmelolg"
+# # [[params.social]]
+# #   name = "reddit"
+# #   link = "https://www.reddit.com/user/carmelolg"
+# # [[params.social]]
+# #   name = "rss"
+# #   link = "https://carmelolg.github.io/blog/index.xml"
+#
