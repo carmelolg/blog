@@ -66,6 +66,10 @@ weight = 4
     style = "dracula"
     tabWidth = 4
 
+# Enable tags.
+[taxonomies]
+   tag = "tags"
+
 #[params]
 #
 # # colortheme = "classic" # dark, light, white, or classic
