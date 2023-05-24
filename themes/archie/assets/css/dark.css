@@ -10,7 +10,7 @@ body {
 }
 
 ::selection {
-  background: red;
+  background: #00719e;
   color: #fff;
   text-shadow: none;
 }
@@ -120,7 +120,7 @@ a:hover {
 .highlight pre code[class*='language-yml']::before,
 .highlight pre code[class*='language-yaml']::before {
   content: 'yaml';
-  background: #f71e6a;
+  background: #00719e;
   color: white;
 }
 .highlight pre code[class*='language-shell']::before,
