@@ -7,78 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-IT</language>
     <copyright>carmelolg</copyright>
-    <lastBuildDate>Mon, 22 May 2023 19:00:00 +0000</lastBuildDate><atom:link href="https://carmelolg.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 May 2023 19:00:00 +0000</lastBuildDate>
+    <atom:link href="https://carmelolg.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>calabria</title>
       <link>https://carmelolg.github.io/blog/tags/calabria/</link>
       <pubDate>Mon, 22 May 2023 19:00:00 +0000</pubDate>
-      
       <guid>https://carmelolg.github.io/blog/tags/calabria/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>storie</title>
       <link>https://carmelolg.github.io/blog/tags/storie/</link>
       <pubDate>Mon, 22 May 2023 19:00:00 +0000</pubDate>
-      
       <guid>https://carmelolg.github.io/blog/tags/storie/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>vibo valentia</title>
       <link>https://carmelolg.github.io/blog/tags/vibo-valentia/</link>
       <pubDate>Mon, 22 May 2023 19:00:00 +0000</pubDate>
-      
       <guid>https://carmelolg.github.io/blog/tags/vibo-valentia/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>torino</title>
       <link>https://carmelolg.github.io/blog/tags/torino/</link>
       <pubDate>Thu, 04 Jun 2020 01:30:00 +0000</pubDate>
-      
       <guid>https://carmelolg.github.io/blog/tags/torino/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>concerti</title>
       <link>https://carmelolg.github.io/blog/tags/concerti/</link>
       <pubDate>Tue, 12 Dec 2017 23:30:00 +0000</pubDate>
-      
       <guid>https://carmelolg.github.io/blog/tags/concerti/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>università</title>
       <link>https://carmelolg.github.io/blog/tags/universit%C3%A0/</link>
       <pubDate>Tue, 26 May 2015 20:00:00 +0000</pubDate>
-      
       <guid>https://carmelolg.github.io/blog/tags/universit%C3%A0/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>erasmus</title>
       <link>https://carmelolg.github.io/blog/tags/erasmus/</link>
       <pubDate>Thu, 22 Jan 2015 14:00:00 +0000</pubDate>
-      
       <guid>https://carmelolg.github.io/blog/tags/erasmus/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>krakow</title>
       <link>https://carmelolg.github.io/blog/tags/krakow/</link>
       <pubDate>Thu, 22 Jan 2015 14:00:00 +0000</pubDate>
-      
       <guid>https://carmelolg.github.io/blog/tags/krakow/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
