@@ -6,7 +6,6 @@ copyright = "carmelolg"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
 relativeURLs = true
 canonifyURLs = true
 
