@@ -17,10 +17,6 @@ canonifyURLs = true
 	katex = true # enable KaTeX support
 
 [[params.social]]
-name = "twitter"
-icon = "twitter"
-url = "https://twitter.com/carmelolg"
-[[params.social]]
 name = "instagram"
 icon = "instagram"
 url = "http://www.instagram.com/carmelolg"
