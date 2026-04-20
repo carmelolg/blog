@@ -1,50 +1,45 @@
-name: Deploy to GitHub Pages
+name: docs build
 
 on:
   push:
-    branches: [master]
+    branches: [ master ]
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
+    steps:
+    
+    # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+          submodules: false  # Fetch Hugo themes
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+    # Step 2 - Sets up the latest version of Hugo
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
           hugo-version: 'latest'
-          extended: true
 
-      - name: Build
-        run: hugo --minify
+    # Step 3 - Clean and don't fail
+    - name: Clean public directory
+      run: rm -rf *
+      working-directory: docs
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+    # Step 4 - Builds the site using the latest version of Hugo
+    # Also specifies the theme we want to use
+    - name: Build
+      run: hugo --destination docs
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './docs'
+    # Step 5 - Push our generated site to our gh-pages branch
+    - name: Commit the docs
+      run: |
+        git config --global user.name 'carmelolg'
+        git config --global user.email 'carmelolagamba@hotmail.it'
+        git add -A
+        git commit -m "docs automatic build"
+        git push
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
