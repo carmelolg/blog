@@ -1,0 +1,62 @@
+baseURL = "https://carmelolg.github.io/blog/"
+languageCode = "it"
+title = "Vita da fuori campus"
+publishDir = "docs"
+enableRobotsTXT = true
+enableGitInfo = false
+paginate = 3
+
+[params]
+  description = "Un diario editoriale. Pensieri lenti su design, codice, e quiete."
+  author = "carmelolg"
+  keywords = ["blog"]
+  ogImage = "/images/og-default.png"
+  rssLimit = 20
+  dateFormat = "02/01/2006"
+  github = "https://github.com/carmelolg"
+  website = "https://carmelolg.github.io/"
+  tagline = "Il blog fuori campus"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    style = "monokailight"
+    noClasses = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Archivio"
+    url = "/archive/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
