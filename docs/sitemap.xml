@@ -2,226 +2,226 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2026-05-16/</loc>
+    <loc>http://localhost:1313/blog/posts/2026-05-16/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/</loc>
+    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/</loc>
+    <loc>http://localhost:1313/blog/posts/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/calabria/</loc>
+    <loc>http://localhost:1313/blog/categories/calabria/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/calabria/</loc>
+    <loc>http://localhost:1313/blog/tags/calabria/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/</loc>
+    <loc>http://localhost:1313/blog/categories/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/meridione/</loc>
+    <loc>http://localhost:1313/blog/categories/meridione/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/meridione/</loc>
+    <loc>http://localhost:1313/blog/tags/meridione/</loc>
     <lastmod>2026-05-16T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/articoli/</loc>
+    <loc>http://localhost:1313/blog/categories/articoli/</loc>
     <lastmod>2025-09-15T06:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/articoli/</loc>
+    <loc>http://localhost:1313/blog/tags/articoli/</loc>
     <lastmod>2025-09-15T06:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2025-09-15/</loc>
+    <loc>http://localhost:1313/blog/posts/2025-09-15/</loc>
     <lastmod>2025-09-15T06:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/social/</loc>
+    <loc>http://localhost:1313/blog/categories/social/</loc>
     <lastmod>2025-09-15T06:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/social/</loc>
+    <loc>http://localhost:1313/blog/tags/social/</loc>
     <lastmod>2025-09-15T06:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/papa/</loc>
+    <loc>http://localhost:1313/blog/tags/papa/</loc>
     <lastmod>2025-03-19T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2025-03-19/</loc>
+    <loc>http://localhost:1313/blog/posts/2025-03-19/</loc>
     <lastmod>2025-03-19T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/poesia/</loc>
+    <loc>http://localhost:1313/blog/categories/poesia/</loc>
     <lastmod>2025-03-19T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/poesia/</loc>
+    <loc>http://localhost:1313/blog/tags/poesia/</loc>
     <lastmod>2025-03-19T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2024-01-09/</loc>
+    <loc>http://localhost:1313/blog/posts/2024-01-09/</loc>
     <lastmod>2024-01-09T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/storie/</loc>
+    <loc>http://localhost:1313/blog/categories/storie/</loc>
     <lastmod>2023-05-22T19:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/storie/</loc>
+    <loc>http://localhost:1313/blog/tags/storie/</loc>
     <lastmod>2023-05-22T19:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/vibo-valentia/</loc>
+    <loc>http://localhost:1313/blog/tags/vibo-valentia/</loc>
     <lastmod>2023-05-22T19:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2023-05-22/</loc>
+    <loc>http://localhost:1313/blog/posts/2023-05-22/</loc>
     <lastmod>2023-05-22T19:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2020-06-04/</loc>
+    <loc>http://localhost:1313/blog/posts/2020-06-04/</loc>
     <lastmod>2020-06-04T01:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/torino/</loc>
+    <loc>http://localhost:1313/blog/tags/torino/</loc>
     <lastmod>2020-06-04T01:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2018-02-17/</loc>
+    <loc>http://localhost:1313/blog/posts/2018-02-17/</loc>
     <lastmod>2018-02-17T01:14:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2017-12-12/</loc>
+    <loc>http://localhost:1313/blog/posts/2017-12-12/</loc>
     <lastmod>2017-12-12T23:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/concerti/</loc>
+    <loc>http://localhost:1313/blog/categories/concerti/</loc>
     <lastmod>2017-12-12T23:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/concerti/</loc>
+    <loc>http://localhost:1313/blog/tags/concerti/</loc>
     <lastmod>2017-12-12T23:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2017-07-26/</loc>
+    <loc>http://localhost:1313/blog/posts/2017-07-26/</loc>
     <lastmod>2017-07-26T22:12:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2015-05-26/</loc>
+    <loc>http://localhost:1313/blog/posts/2015-05-26/</loc>
     <lastmod>2015-05-26T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/universit%C3%A0/</loc>
+    <loc>http://localhost:1313/blog/tags/universit%C3%A0/</loc>
     <lastmod>2015-05-26T20:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/erasmus/</loc>
+    <loc>http://localhost:1313/blog/categories/erasmus/</loc>
     <lastmod>2015-01-22T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/erasmus/</loc>
+    <loc>http://localhost:1313/blog/tags/erasmus/</loc>
     <lastmod>2015-01-22T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/tags/krakow/</loc>
+    <loc>http://localhost:1313/blog/tags/krakow/</loc>
     <lastmod>2015-01-22T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2015-01-22/</loc>
+    <loc>http://localhost:1313/blog/posts/2015-01-22/</loc>
     <lastmod>2015-01-22T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2014-11-20/</loc>
+    <loc>http://localhost:1313/blog/posts/2014-11-20/</loc>
     <lastmod>2014-11-20T01:37:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2014-10-14/</loc>
+    <loc>http://localhost:1313/blog/posts/2014-10-14/</loc>
     <lastmod>2014-10-14T00:49:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2014-09-19/</loc>
+    <loc>http://localhost:1313/blog/posts/2014-09-19/</loc>
     <lastmod>2014-09-19T11:38:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2014-09-09/</loc>
+    <loc>http://localhost:1313/blog/posts/2014-09-09/</loc>
     <lastmod>2014-09-09T21:08:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/categories/abstract/</loc>
+    <loc>http://localhost:1313/blog/categories/abstract/</loc>
     <lastmod>2014-09-05T10:26:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/posts/2014-09-05/</loc>
+    <loc>http://localhost:1313/blog/posts/2014-09-05/</loc>
     <lastmod>2014-09-05T10:26:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/about/</loc>
+    <loc>http://localhost:1313/blog/about/</loc>
     <lastmod>2014-05-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/archive/</loc>
+    <loc>http://localhost:1313/blog/archive/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/blog/series/</loc>
+    <loc>http://localhost:1313/blog/series/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
