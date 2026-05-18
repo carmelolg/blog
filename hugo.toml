@@ -16,6 +16,10 @@ paginate = 3
   github = "https://github.com/carmelolg"
   website = "https://carmelolg.github.io/"
   tagline = "Il blog fuori campus"
+  # Google Analytics 4 support
+  googleAnalyticsID = "G-KN663ZN32R"
+  enableCookieConsent = true
+  # privacyPolicyURL = "/privacy-policy"
 
 [outputs]
   home = ["HTML", "RSS"]
